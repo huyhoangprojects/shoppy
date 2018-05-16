@@ -1,0 +1,7 @@
+@import '_var.scss';
+body {
+  font-family: 'Mukta Mahee', Helvetica, Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  background: linear-gradient($color-polar, $color-perfume);
+  min-height: 100vh;
+}
