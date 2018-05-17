@@ -7,8 +7,8 @@ class Logo extends Component {
   render() {
     return (
       <Router>
-        <Link to="/" className="logo">
-          <img src={logo} className="logo__image" alt="Logo Shoppy" />
+        <Link to="/" className="link logo">
+          <img src={logo} className="image logo__image" alt="Logo Shoppy" />
         </Link>
       </Router>
     );

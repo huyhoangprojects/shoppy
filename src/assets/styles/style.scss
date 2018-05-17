@@ -5,3 +5,12 @@ body {
   background: linear-gradient($color-polar, $color-perfume);
   min-height: 100vh;
 }
+
+.link {
+  text-decoration: none!important;
+  color: $color-black;
+}
+
+.image {
+  max-width: 100%;
+}

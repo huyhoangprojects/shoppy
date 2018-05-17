@@ -7,7 +7,7 @@ class Logo extends Component {
   render() {
     return (
       <Router>
-        <Link to="/" className="cart-button">
+        <Link to="/" className="link cart-button">
           <span className="cart-button__icon">
             <FontAwesome name="shopping-bag"/>
           </span>

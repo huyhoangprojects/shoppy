@@ -1,0 +1,8 @@
+.product-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1px solid #ccc;
+  .product {
+    border: 1px solid #ccc;
+  }
+}
