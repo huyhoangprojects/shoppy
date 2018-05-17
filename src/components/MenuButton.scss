@@ -1,0 +1,47 @@
+.menu-button {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+
+  &__bar {
+    background-color: #000;
+    border-radius: 3px;
+    height: 3px;
+    &--01 {
+      width: 100%;
+      transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+      transform-origin: right;
+    }
+    &--02 {
+      width: 75%;
+    }
+    &--03 {
+      width: 50%;
+      align-self: flex-start;
+      transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+      transform-origin: left;
+    }
+  }
+
+  &.open {
+    transform: rotate(-45deg);
+    .menu-button__bar {
+      &--01 {
+        width: 20px;
+        transform: rotate(-90deg) translateX(7px);
+      }
+      &--02 {
+        width: 100%;
+      }
+      &--03 {
+        width: 20px;
+        align-self: flex-end;
+        transform: rotate(-90deg) translateX(-7px);
+      }
+    }
+  }
+}

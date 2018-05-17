@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import logo from '../assets/images/logo.svg';
+import Logo from '../components/Logo';
+import CartButton from '../components/CartButton';
+import MenuButton from '../components/MenuButton';
+import '../../node_modules/font-awesome/css/font-awesome.min.css';
 import './App.scss';
-
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to Shoppy</h1>
-        </header>
+      <div className="app-wrapper">
+        <MenuButton />
+        <Logo />
+        <CartButton />
       </div>
     );
   }
