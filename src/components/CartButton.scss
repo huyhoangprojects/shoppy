@@ -1,5 +1,5 @@
 .cart-button {
-  font-size: 20px;
+  font-size: 23px;
   position: relative;
   &__number {
     position: absolute;
@@ -11,5 +11,11 @@
     border-radius: 50%;
     border: 1px solid #000;
     background: #fff;
+    right: 10px;
+    top: -2px;
+  }
+  &__icon {
+    display: block;
+    margin-top: -4px;
   }
 }

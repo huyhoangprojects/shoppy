@@ -7,7 +7,7 @@ class Product extends Component {
     return (
       <Router>
         <div className="product">
-          <h3 className="product__name">Nike Air Zoom Pegasus 35</h3>
+          <Link to="/" className="link product__name">Nike Air Zoom Pegasus 35</Link>
           <button className="product__like">
             <FontAwesome name="heart-o"/>
           </button>

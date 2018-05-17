@@ -1,4 +1,12 @@
 .app-wrapper {
   max-width: 375px;
   margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.app-container {
+  position: relative;
+  box-shadow: -12px 0px 90px 0px rgba(0, 0, 0, 0.35);
+  z-index: 1;
 }
